@@ -137,6 +137,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\UsuarioContext.cs" />
+    <Compile Include="Models\usuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -144,12 +146,41 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\banner\img-banner-exemple.png" />
+    <Content Include="Content\img\banner\img-banner-exemple2.png" />
+    <Content Include="Content\img\banner\img-banner-exemple3.png" />
+    <Content Include="Content\img\banner\img-banner-oppenheimer.jfif" />
+    <Content Include="Content\img\dolby\dolby-atmos.png" />
+    <Content Include="Content\img\dolby\dolby-cinema-logo.png" />
+    <Content Include="Content\img\dolby\dolby-digital.png" />
+    <Content Include="Content\img\dolby\dolby-vision.png" />
+    <Content Include="Content\img\dolby\icon-dolby.png" />
+    <Content Include="Content\img\logo-samsung-onyx.png" />
+    <Content Include="Content\img\posters\img-poster-barbie.jpg" />
+    <Content Include="Content\img\posters\img-poster-bezouro-azul.jpg" />
+    <Content Include="Content\img\posters\img-poster-duna.jpg" />
+    <Content Include="Content\img\posters\img-poster-elementos.jpg" />
+    <Content Include="Content\img\posters\img-poster-homem-aranha-aav.jpg" />
+    <Content Include="Content\img\posters\img-poster-missao-impossivel.jpg" />
+    <Content Include="Content\img\posters\img-poster-oppenheimer.jpg" />
+    <Content Include="Content\img\posters\img-poster-sobrenatural.jpg" />
+    <Content Include="Content\img\posters\img-poster-tartarugas-ninjas-cm.jpg" />
+    <Content Include="Content\img\products\img-cineroom.png" />
+    <Content Include="Content\img\products\img-combos.png" />
+    <Content Include="Content\img\products\img-popcorn.png" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\img\banner\Thumbs.db" />
+    <Content Include="Content\img\dolby\dolby-audio.webp" />
+    <Content Include="Content\img\dolby\Thumbs.db" />
+    <Content Include="Content\img\posters\Thumbs.db" />
+    <Content Include="Content\img\products\img-combos.psd" />
+    <Content Include="Content\img\products\Thumbs.db" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -161,6 +192,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -178,7 +210,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

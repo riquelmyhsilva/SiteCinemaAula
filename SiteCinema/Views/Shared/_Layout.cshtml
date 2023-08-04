@@ -5,36 +5,58 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
-    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/style.css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Nome do aplicativo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Início", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Sobre", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
-                </ul>
-            </div>
+    <header>
+        <img src="~/Content/img/dolby/dolby-cinema-logo.png" alt="dolby-cinema" class="dolby-cinema-logo" id="icon-dolby">
+        <div class="select-box">
+            <select name="city" required="required" class="select-city">
+                <option value="">Selecinone uma cidade</option>
+                <option value="">Campo Limpo Paulista - SP</option>
+                <option value="">Jundiaí - SP</option>
+                <option value="">Várzea Paulista - SP</option>
+            </select>
+            <select name="cinema" required="required" class="select-cinema">
+                <option value="">Selecinone um cinema</option>
+            </select>
+            <button class="button-programming">PROGRAMAÇÂO</button>
         </div>
-    </div>
-    <div class="container body-content">
+        <nav>
+            <button class="nav-button" id="button-menu">Menu</button>
+            <button class="nav-button">Pré-vendas</button>
+            <button class="nav-button">Próximas estreias</button>
+            <button class="nav-button">Bombando</button>
+            <button class="nav-button">Produtos e Serviços</button>
+        </nav>
+    </header>
         @RenderBody()
-        <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
+            <div class="footer-content">
+                <div class="footer-technologies">
+                    <img src="~/Content/img/dolby/dolby-atmos.png" alt="" class="preto footer-img-technologies">
+                    <img src="~/Content/img/dolby/dolby-digital.png" alt="" class="preto footer-img-technologies">
+                    <img src="~/Content/img/dolby/dolby-vision.png" alt="" class="preto footer-img-technologies">
+                    <img src="~/Content/img/logo-samsung-onyx.png" alt="" class="footer-img-technologies">
+                </div>
+                <div class="footer-info">
+                    <div class="info">
+                        <div class="info-tittle">Quem Somos?</div>
+                        <a href="#">Sobre Nós</a>
+                    </div>
+                    <div class="info">
+                        <div class="info-tittle">Legal</div>
+                        <a href="#">Termos e Condições</a>
+                    </div>
+                    <div class="info">
+                        <div class="info-tittle">Contato</div>
+                        <a href="#">Fale Conosco</a>
+                    </div>
+                </div>
+                <p class="p-copy">Dolby Cinema 2023 &copy; Todos os direito reservados</p>
+            </div>
         </footer>
-    </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
