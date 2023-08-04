@@ -2,7 +2,7 @@
 const buttonBarbie = document.getElementById('button-barbie');
 
 buttonBarbie.addEventListener('click', function() {
-  window.location.href = 'filme-barbie.html';
+  window.location.href = 'movieBarbie.cshtml';
 });
 
 const buttonBezouroAzul = document.getElementById('button-bezouro-azul');

@@ -146,6 +146,8 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\comprar-ingressos.css" />
+    <Content Include="Content\filme-indisponivel.css" />
     <Content Include="Content\img\banner\img-banner-exemple.png" />
     <Content Include="Content\img\banner\img-banner-exemple2.png" />
     <Content Include="Content\img\banner\img-banner-exemple3.png" />
@@ -182,6 +184,7 @@
     <Content Include="Content\img\products\img-combos.psd" />
     <Content Include="Content\img\products\Thumbs.db" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\comprar-ingresso.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -204,9 +207,10 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\movieBarbie.cshtml" />
+    <Content Include="Views\Home\movieBezouroAzul.cshtml" />
+    <Content Include="Views\Home\filmeIndisponivel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
