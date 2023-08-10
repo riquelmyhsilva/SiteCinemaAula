@@ -4,16 +4,16 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using System.Data.Entity;
+//using System.Data.Entity;
 
 namespace SiteCinema.Models
 {
-    public class UsuarioContext : DbContext
+    /*public class UsuarioContext : DbContext
     {
         public UsuarioContext() : base("Usuarios")
         {
 
-        }   
+        }
         public DbSet<Usuario> Usuarios { get; set }
      }
 
@@ -24,5 +24,5 @@ namespace SiteCinema.Models
 
         }
         public DbSet<Filme> Filmes { get; set; }
-    }
+    }*/
 }

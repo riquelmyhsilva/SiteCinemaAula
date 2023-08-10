@@ -1,68 +1,69 @@
 // JavaScript Document
+
 const buttonBarbie = document.getElementById('button-barbie');
 
-buttonBarbie.addEventListener('click', function() {
-  window.location.href = 'filme-barbie.html';
+buttonBarbie.addEventListener('click', function () {
+    window.location.href = '/Home/movieBarbie';
 });
 
 const buttonBezouroAzul = document.getElementById('button-bezouro-azul');
 
-buttonBezouroAzul.addEventListener('click', function() {
-  window.location.href = 'filme-bezouro-azul.html';
+buttonBezouroAzul.addEventListener('click', function () {
+    window.location.href = '/Home/movieBezouroAzul';
 });
 
 const buttonMissaoImpossivel = document.getElementById('button-missao-impossivel');
 
-buttonMissaoImpossivel.addEventListener('click', function() {
-  window.location.href = 'filme-indisponivel.html';
+buttonMissaoImpossivel.addEventListener('click', function () {
+    window.location.href = '/Home/filmeIndisponivel';
 });
 
 const buttonHomemAranhaAav = document.getElementById('button-homem-aranha-aav');
 
-buttonHomemAranhaAav.addEventListener('click', function() {
-  window.location.href = 'filme-indisponivel.html';
+buttonHomemAranhaAav.addEventListener('click', function () {
+    window.location.href = '/Home/filmeIndisponivel';
 });
 
 const buttonElementos = document.getElementById('button-elementos');
 
-buttonElementos.addEventListener('click', function() {
-  window.location.href = 'filme-indisponivel.html';
+buttonElementos.addEventListener('click', function () {
+    window.location.href = '/Home/filmeIndisponivel';
 });
 
 const buttonDuna = document.getElementById('button-duna');
 
-buttonDuna.addEventListener('click', function() {
-  window.location.href = 'filme-indisponivel.html';
+buttonDuna.addEventListener('click', function () {
+    window.location.href = '/Home/filmeIndisponivel';
 });
 
-const buttonOppenheimer= document.getElementById('button-oppenheimer');
+const buttonOppenheimer = document.getElementById('button-oppenheimer');
 
-buttonOppenheimer.addEventListener('click', function() {
-  window.location.href = 'filme-indisponivel.html';
+buttonOppenheimer.addEventListener('click', function () {
+    window.location.href = '/Home/filmeIndisponivel';
 });
 
-const buttonSobrenatural= document.getElementById('button-sobrenatural');
+const buttonSobrenatural = document.getElementById('button-sobrenatural');
 
-buttonSobrenatural.addEventListener('click', function() {
-  window.location.href = 'filme-indisponivel.html';
+buttonSobrenatural.addEventListener('click', function () {
+    window.location.href = '/Home/filmeIndisponivel';
 });
 
 const buttonTartarugasNCM = document.getElementById('button-tartarugas-ncm');
 
-buttonTartarugasNCM.addEventListener('click', function() {
-  window.location.href = 'filme-indisponivel.html';
+buttonTartarugasNCM.addEventListener('click', function () {
+    window.location.href = '/Home/filmeIndisponivel';
 });
 
 const buttonIconDolby = document.getElementById('icon-dolby');
 
-buttonIconDolby.addEventListener('click', function() {
-  window.location.href = 'index-cinema.html';
+buttonIconDolby.addEventListener('click', function () {
+    window.location.href = '/Home/Index';
 });
 
 const buttonMenu = document.getElementById('button-menu');
 
-buttonMenu.addEventListener('click', function() {
-  window.location.href = 'index-cinema.html';
+buttonMenu.addEventListener('click', function () {
+    window.location.href = '/Home/Index';
 });
 
 const slider = document.querySelector('.slider');
