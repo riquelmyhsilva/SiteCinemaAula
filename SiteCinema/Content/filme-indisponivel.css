@@ -2,8 +2,8 @@
 /* CSS Document */
 
 html {
-	margin: none;
-	padding: none;
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
